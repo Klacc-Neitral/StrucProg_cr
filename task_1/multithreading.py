@@ -3,7 +3,7 @@ import requests
 import threading
 from concurrent.futures import ThreadPoolExecutor
 
-from parser import parse_content
+from parser import extract_product_data as parse_content
 from urls import OUTPUT_FILE_THREADS
 from utils import write_to_csv
 

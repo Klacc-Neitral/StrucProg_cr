@@ -2,7 +2,7 @@ import asyncio
 import aiohttp
 from aiohttp import web
 
-from parser import parse_content
+from parser import extract_product_data as parse_content
 from urls import OUTPUT_FILE_ASYNC
 from utils import write_to_csv_async
 
